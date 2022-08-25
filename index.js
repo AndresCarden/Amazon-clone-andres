@@ -11,7 +11,7 @@ const userRouter = require("./routes/user");
 
 //import "package:express/express.dart"
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DB ="mongodb+srv://Andrus1990:Oli90-ca@cluster0.drwtmrw.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
